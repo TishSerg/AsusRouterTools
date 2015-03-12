@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsusCmd", "AsusCmd\AsusCmd.vcxproj", "{6FFB111A-79AB-4742-9CB9-5C59D01D78D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsusDiscover", "AsusDiscover\AsusDiscover.vcxproj", "{D0C34914-7A40-45E8-BF38-DDE8575A9DF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsusBinWrite", "AsusBinWrite\AsusBinWrite.vcxproj", "{03247780-3435-4ED3-999B-8276D9E48785}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{63E21C7E-0B51-49A4-A4F1-5FE2894F5BAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "includes", "includes", "{E2399E8C-8FEA-4F0F-A773-E2AE3F7C7E19}"
+	ProjectSection(SolutionItems) = preProject
+		Common\includes\iboxcomh_piece.h = Common\includes\iboxcomh_piece.h
+		Common\includes\InfosvrDefines.h = Common\includes\InfosvrDefines.h
+		Common\includes\InfosvrExploit.h = Common\includes\InfosvrExploit.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sources", "sources", "{9464C4A2-9F3A-48E4-9455-2068388792D4}"
+	ProjectSection(SolutionItems) = preProject
+		Common\sources\InfosvrExploit.cpp = Common\sources\InfosvrExploit.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC6E5460-8399-4959-AEC2-15CCE18A3F1A}"
+	ProjectSection(SolutionItems) = preProject
+		gpl.txt = gpl.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FFB111A-79AB-4742-9CB9-5C59D01D78D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FFB111A-79AB-4742-9CB9-5C59D01D78D1}.Debug|Win32.Build.0 = Debug|Win32
+		{6FFB111A-79AB-4742-9CB9-5C59D01D78D1}.Release|Win32.ActiveCfg = Release|Win32
+		{6FFB111A-79AB-4742-9CB9-5C59D01D78D1}.Release|Win32.Build.0 = Release|Win32
+		{D0C34914-7A40-45E8-BF38-DDE8575A9DF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D0C34914-7A40-45E8-BF38-DDE8575A9DF0}.Debug|Win32.Build.0 = Debug|Win32
+		{D0C34914-7A40-45E8-BF38-DDE8575A9DF0}.Release|Win32.ActiveCfg = Release|Win32
+		{D0C34914-7A40-45E8-BF38-DDE8575A9DF0}.Release|Win32.Build.0 = Release|Win32
+		{03247780-3435-4ED3-999B-8276D9E48785}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03247780-3435-4ED3-999B-8276D9E48785}.Debug|Win32.Build.0 = Debug|Win32
+		{03247780-3435-4ED3-999B-8276D9E48785}.Release|Win32.ActiveCfg = Release|Win32
+		{03247780-3435-4ED3-999B-8276D9E48785}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2399E8C-8FEA-4F0F-A773-E2AE3F7C7E19} = {63E21C7E-0B51-49A4-A4F1-5FE2894F5BAF}
+		{9464C4A2-9F3A-48E4-9455-2068388792D4} = {63E21C7E-0B51-49A4-A4F1-5FE2894F5BAF}
+	EndGlobalSection
+EndGlobal

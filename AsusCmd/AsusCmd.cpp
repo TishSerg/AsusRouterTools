@@ -16,7 +16,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	if (argc <= 1)
 	{
-		printf_s("AsusCmd v1.2\n");
+		printf_s("AsusCmd v1.3\n");
 		printf_s("The ASUS Router infosvr exploit.\n");
 		printf_s("Licensed under GPL (http://www.gnu.org/licenses/gpl.html)\n");
 		printf_s("Copyright 2015 TishSerg, Ukraine\n\n");
@@ -75,11 +75,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		for (int i = 3; i < argc; i++)
 		{
-			if (stricmp(argv[i], "VERBOSE") == 0)
+			if (_stricmp(argv[i], "VERBOSE") == 0)
 			{
 				ecfVerbose = EC_FLAG_VERBOSE;
 			}
-			else if (stricmp(argv[i], "RES_ONLY") == 0)
+			else if (_stricmp(argv[i], "RES_ONLY") == 0)
 			{
 				ecfResOnly = EC_FLAG_RESONLY;
 			}

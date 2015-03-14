@@ -518,11 +518,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	if (argc <= 2)
 	{
-		printf_s("AsusBinWrite v1.21\n");
+		printf_s("AsusBinWrite v1.3\n");
 		printf_s("The ASUS Router infosvr exploit.\n");
 		printf_s("Licensed under GPL (http://www.gnu.org/licenses/gpl.html)\n");
 		printf_s("Copyright 2015 TishSerg, Ukraine\n\n");
-		printf_s("Usage: AsusBinWrite <file2write> <path2write> [<target_ip> [APPEND] [RESUME] [TERSE]]\n");
+		printf_s("Usage: AsusBinWrite <localFile> <targetFile> [<target_ip> [APPEND] [RESUME] [TERSE]]\n");
 		//for (int i = 0; i < 256; i++)
 		//{
 		//	printf_s("%d\t->%c\n", i, i);
